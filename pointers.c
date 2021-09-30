@@ -49,5 +49,7 @@ int main()
 	wrongPointer[2] += 16;
 	wrongPointer[3] += 16;
 
+	printf("unsigned int after modification: \n%x\n%u\n\n", ui, ui);
+
 	return 0;
 }
